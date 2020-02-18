@@ -7,9 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace LIbreria {
-    
-    
-    public partial class Index {
+namespace LIbreria
+{
+
+
+    public partial class Index
+    {
     }
 }

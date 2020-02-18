@@ -72,6 +72,7 @@
     <Content Include="css\uikit.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Index.aspx" />
+    <Content Include="jss\Index.js" />
     <Content Include="jss\jquery-3.4.1.min.js" />
     <Content Include="jss\uikit-icons.min.js" />
     <Content Include="jss\uikit.min.js" />

@@ -13,6 +13,7 @@
     <link href="css/estilosPropios.css" rel="stylesheet" />
     <script src="jss/jquery-3.4.1.min.js"></script>
     <script src="jss/uikit.min.js"></script>
+    <script src="jss/Index.js"></script>
     <script src="jss/uikit-icons.min.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -25,8 +26,7 @@
                     <a class="uk-navbar-item uk-logo" href="#">Logo</a>
                     <div class="uk-navbar-item">
                         <div class="uk-text-bold">
-                            Limon con Jengibre
-                                <a href="#"></a>
+                            Limon con Jengibre <a href="#"></a>
                         </div>
                     </div>
                     <ul class="uk-navbar-nav">
@@ -35,14 +35,13 @@
                             <a href="#">Categorias</a>
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active"><a href="#">Active</a></li>
                                     <li><a href="#">Fantasia</a></li>
                                     <li><a href="#">Cuarentonas</a></li>
                                     <li><a href="#">Juvenil</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li><a href="#">Catalogo</a></li>
+                        <li><a class="uk-button" href="#target" uk-scroll>Catalogo</a></li>
                     </ul>
                 </div>
                 <div class="uk-navbar-right">
@@ -80,4 +79,5 @@
     </form>
 
 </body>
+
 </html>

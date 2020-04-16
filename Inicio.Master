@@ -32,7 +32,7 @@
                     <ul class="uk-navbar-nav">
                         <li class="uk-active"><a href="Index.aspx">Inicio</a></li>
                         <li>
-                            <a href="#">Categorias</a>
+                            <a href="Paginas/Categorias.aspx">Categorias</a>
                             <div class="uk-navbar-dropdown">
                                 <ul class="uk-nav uk-navbar-dropdown-nav">
                                     <li><a href="#">Fantasia</a></li>
@@ -56,27 +56,29 @@
                     <ul class="uk-navbar-nav">
                         <li class="uk-active uk-button" href="#modal-center" uk-toggle><a href="#">Iniciar Sesion</a>
                             <div id="modal-center" class="uk-flex-top" uk-modal>
-                                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
-                                    <button class="uk-modal-close-default" type="button" uk-close></button>
-                                    <form>
-                                        <div class="uk-margin" style="margin-left:20%;">
-                                            <div class="uk-inline ">
+                                <div class="uk-modal-dialog uk-modal-body  ">
+                                    <h1 class=" uk-text-center uk-text-bold">Inicio sesion</h1>
+                                        <div class=" ">
+                                        <div class="uk-margin uk-text-center">
+                                            <div class="uk-inline">
                                                 <span class="uk-form-icon" uk-icon="icon: user"></span>
-                                                <input class="uk-input" type="text">
+                                                <input class="uk-input" type="text" autocomplete="off">
                                             </div>
                                         </div>
 
-                                        <div class="uk-margin" style="margin-left:20%;">
+                                        <div class="uk-margin uk-text-center">
                                             <div class="uk-inline">
                                                 <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
-                                                <input class="uk-input" type="text">
+                                                <input class="uk-input" type="password">
                                             </div>
                                         </div>
-                                    </form>
-                                    <button class="uk-button uk-button-default uk-modal-close" type="button" style="margin-left:30%;">Cancel</button>
-                                    <button class="uk-button uk-button-primary" type="button" style="margin-left:30%;" >Iniciar Sesion</button>
+                                    <div class=" uk-text-center">
+                                    <button class="uk-button uk-button-default uk-modal-close" type="button">Salir</button>
+                                    <button class="uk-button uk-button-primary" type="button"  >Iniciar Sesion</button>
+                                   </div>
                                 </div>
                             </div>
+                          </div>
                         </li>
                     </ul>
                 </div>

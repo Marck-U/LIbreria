@@ -108,7 +108,7 @@
             <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
         </div>--%>
 
-    <h1 class=" uk-text-center">Catalogo</h1>
+    <h1 id="target" class=" uk-text-center"  href="#target" >Catalogo</h1>
     <div class="uk-container">
         <div uk-filter="target: .js-filter">
 
